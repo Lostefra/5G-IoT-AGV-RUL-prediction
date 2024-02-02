@@ -1,0 +1,9 @@
+,model,seed,columns,params,params_idx,cost,anticipation,detected_faults,missed_faults,false_alarms
+0,raw_signal,100,Ax_diff,{},0,306.39999999999725,0.4615384615384615,13,0,582
+1,autoencoder,200,w5_features,"{'hidden_ae': [128, 56, 18, 56, 128]}",2,2666.7999999997655,0.9,13,0,13334
+2,mlp,2800,w5_features,"{'hidden_mlp': [128, 64, 32]}",3,142.20000000000027,0.6615384615384615,13,0,236
+3,conv_nn,2200,all_features,"{'filters': 1, 'kernel_size': 3, 'hidden': [64, 32], 'w_len': 5}",11,114.60000000000062,0.8,13,0,398
+4,lstm,200,w5_features,"{'time_steps': 5, 'units': 128}",1,381.39999999999964,0.2833333333333333,12,1,62
+5,gru,300,all_features,"{'time_steps': 5, 'units': 64}",0,290.79999999999643,0.6846153846153846,13,0,974
+6,bilstm,100,w15_features,"{'time_steps': 5, 'units': 128}",1,272.3999999999993,0.4769230769230769,13,0,322
+7,transformer,301,w15_features,"{'head_size': 256, 'num_heads': 4, 'ff_dim': 4, 'num_transformer_blocks': 4, 'mlp_units': [128], 'mlp_dropout': 0.4, 'dropout': 0.25, 'w_len': 5}",3,316.7999999999982,0.46923076923076923,13,0,549
