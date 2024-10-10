@@ -1,5 +1,5 @@
 # 5G IoT AGV's training code for Remaining Useful Life (RUL)
-This repository contains the dataset used in the paper "Data-Driven 5G-Enabled Remaining Useful Life Estimation for Industrial IoT: a Holistic Approach".
+This repository contains the dataset used in the paper "5G Architectures Enabling Remaining Useful Life Estimation for Industrial IoT: a Holistic Study".
 
 Detailed discussion about models and their hyper-parameters is available here: [deep_learning_models_analysis.pdf](https://github.com/Lostefra/5G-IoT-AGV-RUL-prediction/blob/main/deep_learning_models_analysis.pdf).
 
